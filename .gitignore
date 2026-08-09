@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Project data (generated at runtime)
+data/images/
+data/processed/
+data/reports/
+logs/
+models/
+
+# Ollama models (large, not tracked)
+*.gguf
+
+# Environment
+.env
+.env.local

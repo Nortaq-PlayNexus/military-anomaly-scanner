@@ -1,0 +1,47 @@
+{
+  "system": {
+    "name": "MILITARY_ANOMALY_SCANNER",
+    "version": "1.0.0",
+    "classification": "TOP SECRET//SCI",
+    "max_threads": 8,
+    "retry_attempts": 3,
+    "timeout_seconds": 30
+  },
+  "target": {
+    "base_url": "https://hirise-pds.lpl.arizona.edu/",
+    "max_pages": 50,
+    "max_images": 200,
+    "download_delay_ms": 500,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  },
+  "ollama": {
+    "host": "http://localhost:11434",
+    "model_vision": "llava:latest",
+    "model_text": "llama2:latest",
+    "temperature": 0.3,
+    "max_tokens": 4096
+  },
+  "scanning": {
+    "anomaly_categories": [
+      "structural_anomalies",
+      "artificial_constructs",
+      "potential_craft_vehicles",
+      "biological_signatures",
+      "water_ice_deposits",
+      "geological_anomalies",
+      "geometric_patterns",
+      "unusual_shadow_patterns",
+      "surface_discontinuities",
+      "thermal_anomalies"
+    ],
+    "confidence_threshold": 0.7,
+    "min_image_resolution": [256, 256],
+    "analysis_batch_size": 10
+  },
+  "output": {
+    "report_format": "json",
+    "include_heatmaps": true,
+    "include_annotations": true,
+    "archive_raw_data": true
+  }
+}
