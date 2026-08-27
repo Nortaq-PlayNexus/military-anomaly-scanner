@@ -17,7 +17,7 @@ Every detection is classified by category and threat level, with pre-analysis ge
 
 ---
 
-## Features
+\n---\n\n## Screenshots\n\n| Preview | Description |\n|---------|-------------|\n| ![screenshot](docs/screenshots/screenshot.png) | Main interface |\n| ![screenshot](docs/screenshots/demo.gif) | Demo |\n\n*Screenshots coming soon — placeholders auto-generated. Replace docs/screenshots/ with real captures.*\n\n## Features
 
 ### Multi-phase scan pipeline
 
