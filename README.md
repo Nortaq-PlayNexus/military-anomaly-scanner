@@ -1,15 +1,31 @@
-<div align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/ANOMALY%20SCANNER-HIRISE%20RECON-ff4d00?style=flat-square&labelColor=0a0e1a" alt="anomaly" />
+</p>
 
-# MILITARY ANOMALY SCANNER
+# MILITARY ANOMALY SCANNER :: HIRISE RECON
 
 **Automated reconnaissance and anomaly detection system for HiRISE planetary imagery, powered by local Ollama vision-language models.**
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-%3E%3D3.8-3776AB?logo=python&logoColor=white)](https://python.org)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-5C3EE8?logo=opencv&logoColor=white)](https://opencv.org)
-[![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-000000?logo=ollama&logoColor=white)](https://ollama.ai)
+<p align="center">
+  <img src="https://img.shields.io/badge/PYTHON-%3E%3D3.8-ffc430?style=flat-square&logo=python&logoColor=ffc430&labelColor=0a0e1a" alt="python"/>
+  <img src="https://img.shields.io/badge/CV-OPENCV%204.8-00E5FF?style=flat-square&logo=opencv&logoColor=00E5FF&labelColor=0a0e1a" alt="opencv"/>
+  <img src="https://img.shields.io/badge/LLM-OLLAMA%20LOCAL-3dd5ff?style=flat-square&logo=ollama&logoColor=3dd5ff&labelColor=0a0e1a" alt="ollama"/>
+  <img src="https://img.shields.io/badge/CLASSES-10%20ANOMALY-B8FF1E?style=flat-square&labelColor=0a0e1a" alt="classes"/>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-ff3b3b?style=flat-square&labelColor=0a0e1a" alt="license"/></a>
+</p>
 
-</div>
+<pre>
+IDENT ......... SCANNER-01
+CLASS ......... PLANETARY RECON / ANOMALY DETECTION
+STATUS ........ ONLINE / ACTIVE
+TARGET ........ HIRISE MARS SURFACE IMAGERY
+PIPELINE ...... SCRAPE → ENHANCE → DETECT → CLASSIFY → REPORT
+LINK .......... /military-anomaly-scanner
+</pre>
+
+---
+
+## // 01 :: SIGNAL
 
 **Military Anomaly Scanner** is a multi-phase pipeline that scrapes publicly available HiRISE PDS (Planetary Data System) Mars surface imagery, enhances it with classical computer vision, and analyzes it through locally-hosted Ollama vision-language models to detect and classify anomalies.
 
