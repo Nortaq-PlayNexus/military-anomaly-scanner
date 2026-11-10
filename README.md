@@ -33,7 +33,8 @@ Every detection is classified by category and threat level, with pre-analysis ge
 
 ---
 
-\n---\n\n## Screenshots\n\n| Preview | Description |\n|---------|-------------|\n| ![screenshot](docs/screenshots/screenshot.png) | Main interface |\n| ![screenshot](docs/screenshots/demo.gif) | Demo |\n\n*Screenshots coming soon — placeholders auto-generated. Replace docs/screenshots/ with real captures.*\n\n## Features
+
+## Features
 
 ### Multi-phase scan pipeline
 
@@ -264,3 +265,8 @@ Interactive CLI to list, pull, and set up Ollama models. Recommends `llava` for 
 ## License
 
 [MIT](LICENSE) — PlayNexus
+
+
+## Screenshot status
+
+Application captures are not included in this checkout. Add screenshots from a documented run before presenting a visual demonstration.
